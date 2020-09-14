@@ -1,0 +1,9 @@
+# Create all Virtual Envs inside .venv/
+.venv/
+
+# IDE Specific
+.vscode/
+.idea/
+
+# Python
+**/__pycache__/**
