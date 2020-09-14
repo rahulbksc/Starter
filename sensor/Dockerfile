@@ -1,5 +1,6 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.8
-
+ENV UWSGI_CHEAPER 1
+ENV UWSGI_PROCESSES 2
 COPY ./app /app
 
 # For dev purposes comment lines above and uncomment below.
