@@ -3,6 +3,9 @@
 This example demonstrate a sensor data emitting real-time temperature.
 User can provide a config to chose a scale (Fahrenheit, Celsius, Kelvin)
 
+please follow instruction @ https://docs.docker.com/get-docker/
+
+
 To build docker container use follownig commands:
 
 ```
